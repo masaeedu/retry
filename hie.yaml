@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+  - path: "./lib"
+    component: "lib:retry"
+
+  - path: "./app"
+    component: "retry:exe:retry"
+
+  - path: "./app/Paths_retry.hs"
+    component: "retry:exe:retry"
